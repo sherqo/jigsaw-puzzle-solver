@@ -13,14 +13,21 @@ export default function DocsPage() {
           </div>
 
           <section className="mb-6">
-            <h2 className="text-xl font-semibold mb-2">Getting access to the repo</h2>
+            <h2 className="text-xl font-semibold mb-2">Getting the source</h2>
             <p className="text-slate-600 dark:text-slate-400">
-              This repository is currently private. If you want access before Phase 2&lsquo;s public release, please contact us via email or
-              phone.
+              This repository is open source at{' '}
+              <a
+                href="https://github.com/sherqo/jigsaw-puzzle-solver"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline">
+                github.com/sherqo/jigsaw-puzzle-solver
+              </a>
+              .
             </p>
             <p className="mt-2">Clone it</p>
             <pre className="mt-3 p-3 bg-slate-100 dark:bg-slate-800 rounded text-sm overflow-auto">
-              git clone git@github.com:sharqawycs/jigsaw-puzzle-solver.git
+              git clone git@github.com:sherqo/jigsaw-puzzle-solver.git
             </pre>
           </section>
 
@@ -51,8 +58,8 @@ export default function DocsPage() {
             <h3 className="text-lg font-semibold">Need access? Contact us</h3>
             <p className="text-slate-600 dark:text-slate-400 mt-2">
               Email:{' '}
-              <a href="mailto:sharqawycs@gmail.com" className="underline">
-                sharqawycs@gmail.com
+              <a href="mailto:sherqo@sherqo.me" className="underline">
+                sherqo@sherqo.me
               </a>{' '}
               • Call:{' '}
               <a href="tel:+201091215660" className="underline">

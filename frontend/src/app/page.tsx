@@ -31,7 +31,7 @@ const features = [
 ];
 
 const team = [
-  { name: 'Sherqo', role: 'Upscaling Specialist', image: '/ph2.jpg', github: 'https://github.com/sharqawycs' },
+  { name: 'Sherqo', role: 'Upscaling Specialist', image: '/ph2.jpg', github: 'https://github.com/sherqo' },
   { name: 'Rowaida', role: 'Filter Wizard', image: '/ph.jpg', github: 'https://github.com/rowaidaEmad' },
   { name: 'Habiba', role: 'Morphology Expert', image: '/ph.jpg', github: 'https://github.com/habibadawod' },
   { name: 'Somaya', role: 'Edge Detection Pro', image: '/ph.jpg', github: 'https://github.com/somayagalal' },
